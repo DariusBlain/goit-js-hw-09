@@ -23,3 +23,25 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body {
+  padding: 24px 156px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.simple-lightbox {
+  background-color: #2e2f42cc;
+}
