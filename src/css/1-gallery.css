@@ -1,0 +1,27 @@
+.link-home {
+  padding: 8px;
+  background-color: rgb(243, 248, 255);
+  border-radius: 36px;
+}
+
+.container-gallery {
+  padding: 24px 156px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.simple-lightbox {
+  background-color: #2e2f42cc;
+}

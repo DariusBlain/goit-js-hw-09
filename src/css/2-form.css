@@ -1,4 +1,4 @@
-.container {
+.container-form {
   padding: 24px;
   width: 100%;
   display: flex;
@@ -35,6 +35,11 @@
   width: 360px;
   height: 40px;
   outline: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
 }
 
 .form-input:hover,
@@ -43,11 +48,8 @@
 }
 
 .form-textarea {
-  border: 1px solid #808080;
-  border-radius: 4px;
-  width: 360px;
   height: 80px;
-  outline: none;
+  resize: none;
 }
 
 .form-textarea:hover,
