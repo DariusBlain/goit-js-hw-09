@@ -23,3 +23,15 @@
 .simple-lightbox {
   background-color: #2e2f42cc;
 }
+
+.sl-wrapper .sl-navigation button {
+  color: #fff;
+}
+
+.sl-wrapper .sl-counter {
+  color: #fff;
+}
+
+.sl-wrapper .sl-close {
+  color: #fff;
+}
